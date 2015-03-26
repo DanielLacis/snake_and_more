@@ -1,0 +1,26 @@
+<!Doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Snake</title>
+    <!-- <link rel="stylesheet" type="text/css" href="../css/hanoi.css"> -->
+  </head>
+  <body>
+    <pre class="snake-game" tabindex="0"></pre>
+
+    <script src="./jquery-2.1.1.js"></script>
+    <!-- Whackjobs at GithubPages don't understand symlinks... -->
+    <script src="./snake.js"></script>
+    <script src="./snake-view.js"></script>
+
+    <script>
+      // Write your code here.
+      $(function() {
+        var $el = $('.snake-game');
+        var view = new window.Snake.View($el);
+      });
+    </script>
+
+  </body>
+</html>

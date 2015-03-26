@@ -1,0 +1,55 @@
+body {
+}
+#towers {
+  width: 700px;
+  height: 200px;
+  background-color: fuchsia;
+  display: block;
+
+}
+
+.towers:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.pile {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.disk1 {
+  display: block;
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+}
+
+.disk2 {
+  display: block;
+  width: 150px;
+  height: 50px;
+  background-color: blue;
+}
+
+.disk3 {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background-color: blue;
+}
+
+.disk0 {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(255,255,255,0);
+}
+
+.diskHighlight {
+  background-color: yellow;
+}
